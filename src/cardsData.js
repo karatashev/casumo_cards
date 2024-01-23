@@ -5,7 +5,7 @@ export const initialCards = [
   
   export const getStoredCards = () => {
     const storedCards = localStorage.getItem('cards');
-    return storedCards ? JSON.parse(storedCards) : [];
+    return storedCards ? JSON.parse(storedCards) : initialCards;
   };
   
   export const storeCards = (cards) => {
