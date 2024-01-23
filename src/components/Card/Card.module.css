@@ -1,0 +1,123 @@
+/* Mobile first */
+
+.card_container {
+    width: 100%;
+    max-width: 350px;
+    height: 200px;
+    background-color: var(--casumo-purple);
+    color: var(--casumo-white);
+    margin: var(--space24) 0;
+    border-radius: var(--round16);
+    background: url(/card-background-shape.svg);
+    background-size: cover; 
+    background-color: var(--casumo-purple);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: var(--space24);
+    cursor: pointer;
+}
+
+/* Upper container */
+.card_upper_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.logo_container {
+    width: 50px;
+}
+
+.logo_container img {
+    width: 100%;
+}
+
+.cvc_expire_container {
+    display: flex;
+    flex-direction: row;
+    gap: var(--space24);
+}
+
+
+.cvc_expire_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: var(--space4);
+}
+
+.title {
+    color: var(--casumo-gray-50);
+    font-size: var(--fs14);
+}
+
+.numbers {
+    color: var(--casumo-white);
+    font-size: var(--fs16);
+    font-weight: bold;
+}
+
+/* Bottom container */
+.card_bottom_container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.name_number_container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space8);
+}
+
+.card_name {
+    font-size: var(--fs16);
+    color: var(--casumo-white);
+    letter-spacing: 1px;
+}
+
+.icon_container {
+    width: 24px;
+}
+
+.icon_container img {
+    width: 100%;
+}
+
+.visacard {
+    width: 100%;
+    max-width: 350px;
+    height: 190px;
+    background-color: var(--casumo-purple);
+    color: var(--casumo-white);
+    margin: var(--space24) 0;
+    border-radius: var(--round16);
+    background-color: var(--visacard);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: var(--space24);
+    cursor: pointer;
+}
+
+.card_number_white {
+    letter-spacing: 1px;
+    font-size: var(--fs16);
+    color: var(--casumo-white);
+}
+
+.card_number_gray {
+    letter-spacing: 1px;
+    font-size: var(--fs16);
+    color: var(--casumo-gray-70);
+}
+

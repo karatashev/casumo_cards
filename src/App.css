@@ -1,0 +1,41 @@
+/* Mobile first */
+.main-container {
+    position: relative; 
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; 
+  }
+  
+  .modal-container {
+    background: #fff;
+    border-top-left-radius: var(--round24);
+    border-top-right-radius: var(--round24);
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 85vh;
+    overflow-y: auto;
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+

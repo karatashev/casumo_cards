@@ -1,0 +1,37 @@
+/* Mobile first */
+.cardlist_container {
+    width: 100%;
+    height: 100%;
+    padding: var(--space24) var(--space32);
+}
+
+.cardlist_section_title {
+    font-size: var(--fs30);
+    color: var(--casumo-purple-lighter);
+    margin-bottom: var(--space4);
+    font-weight: bold;
+}
+
+.cardlist_section_subtitle {
+    font-size: var(--fs16);
+    color: var(--casumo-gray-50);
+    font-weight: 500;
+}
+
+
+.credit_cards_container {
+    margin: var(--space40) 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.confirm_button {
+    background-color: var(--casumo-purple);
+    color: var(--casumo-white);
+    margin: var(--space8) 0;
+}
+
+

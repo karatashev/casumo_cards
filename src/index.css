@@ -1,0 +1,59 @@
+:root {
+
+  /* Font */
+  @font-face {
+      font-family: 'Lineto';
+      src: url('../src/fonts/lineto-circular-pro-book.wofflineto-circular-pro-book.woff') format('woff'),
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('/src/fonts/lineto-circular-pro-book.woff2lineto-circular-pro-book.woff2') format('woff2'),
+        url('/src/fonts/lineto-circular-pro-book.ttflineto-circular-pro-book.ttf') format('truetype');
+      /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }
+
+    --main-font: 'Lineto', Fallback, sans-serif;
+
+
+  /* Colors */
+ --casumo-purple-lighter: #4C00C2;
+ --casumo-purple-light: #32007E;
+ --casumo-purple: #3B058E;
+ --casumo-backgroud: #E5E5E5;
+ --casumo-white: #FFFFFF;
+ --casumo-gray-20: #D3D8E1;
+ --casumo-gray-50: #798291;
+ --casumo-gray-70: #444E5D;
+ --casumo-gray-90: #1A212C;
+ --casumo-green: #19AC51;
+ --casumo-red: #FC484C;
+ --visacard: #07C8C7;
+
+  /* Spacing */
+  --space4: 4px;
+  --space8: 8px;
+  --space16: 16px;
+  --space24: 24px;
+  --space32: 32px;
+  --space40: 40px;
+  --space48: 48px;
+  --space56: 56px;
+
+  /* Font size */
+  --fs10: 10px;
+  --fs14: 14px;
+  --fs16: 16px;
+  --fs24: 24px;
+  --fs30: 30px;
+
+  /* Border radius */
+  --round16: 16px;
+  --round24: 24px;
+  --round100: 100px;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+}

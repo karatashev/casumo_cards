@@ -1,0 +1,14 @@
+.button {
+    width: 100%;
+    max-width: 350px;
+    border-radius: var(--round24);
+    font-size: var(--fs16);
+    font-weight: 700;
+    padding: var(--space16) 0;
+    border: none;
+    cursor: pointer;
+}
+
+.disabled {
+    opacity: 0.3;
+}
